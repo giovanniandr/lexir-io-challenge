@@ -11,9 +11,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          <a href="https://nextjs.org">Logo here</a>
-        </h1>
+        <div className={styles.title}>
+          <a href="#">
+            <img
+              className="object-cover"
+              src="../assets/logo.png"
+              alt="Lexir Logo"
+            />
+          </a>
+        </div>
 
       </main>
     </div>
