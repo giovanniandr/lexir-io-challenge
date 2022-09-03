@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import SideNavBar from "../components/SideNavBar.js";
 
 export default function Home() {
   return (
@@ -10,17 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div className={styles.title}>
-          <a href="#">
-            <img
-              className="object-cover"
-              src="../assets/logo.png"
-              alt="Lexir Logo"
-            />
-          </a>
-        </div>
-
+      <main className="bg-elixir w-full min-h-screen">
+        <SideNavBar/>
       </main>
     </div>
   );

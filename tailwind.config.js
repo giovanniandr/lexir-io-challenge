@@ -5,7 +5,14 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'elixir': '#F9F9F9',
+      },
+      fontFamily: {
+        'Lato': ['Lato']
+      }
+    },
   },
   plugins: [],
 }

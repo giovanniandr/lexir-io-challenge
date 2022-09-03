@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Lato";
+  src: "https://use.typekit.net/hog5kla.css";
+}
+
 html,
 body {
   padding: 0;
