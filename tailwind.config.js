@@ -10,10 +10,15 @@ module.exports = {
         'elixir': '#F9F9F9',
         'name': '#2D2D2D',
         'company' : '#9E9E9E',
+        'border':'#E7E7E7',
       },
     },
+    variants: {
+      backgroundColor: ['responsive','hover','active']
+    },
     fontFamily: {
-      'lato': ['lato']
+      'lato': ['lato'],
+      'serif' : ['serif'],
     },
     fontSize: {
       'xs': '.75rem',

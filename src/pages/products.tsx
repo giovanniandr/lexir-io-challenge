@@ -1,20 +1,20 @@
 import Head from "next/head";
 import { IndexLayout } from "../layouts";
 
-export default function Home() {
+export default function products() {
 
   return (
     <div>
       <Head>
-        <title>Lexir</title>
+        <title>Lexir - Products </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="flex h-full flex-col justify-center items-center">
-            <h1> Dashboard </h1>
+            <h1> Products </h1>
       </div>
     </div>
   );
 }
 
-Home.PageLayout = IndexLayout;
+products.PageLayout = IndexLayout;
